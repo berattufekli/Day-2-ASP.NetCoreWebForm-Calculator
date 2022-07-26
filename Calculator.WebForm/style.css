@@ -1,0 +1,99 @@
+﻿.numbers {
+    border-style: none;
+    width: 64px;
+    height: 64px;
+    background-color: #282B33;
+    border-radius: 12px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    margin: 10px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(34,37,45,1);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(34,37,45,1);
+    box-shadow: 3px 3px 5px 0px rgba(34,37,45,1);
+    outline: none;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    text-decoration: none;
+}
+
+.button:active{
+    border:none;
+}
+
+.numbers:hover {
+    background-color: #22252D;
+}
+
+p {
+    margin: auto;
+}
+
+svg{
+    width:32px;
+    color:white;
+}
+
+
+.container {
+    background-color: #2A2D37;
+    border-radius: 12px;
+    margin: auto;
+    -webkit-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.25);
+    box-shadow: 2px 2px 12px 0px rgba(0,0,0,0.25);
+}
+
+.custom {
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    width: 100vw;
+    background-color: #22252D;
+}
+
+.result {
+    height: 50px;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    
+}
+
+
+.latest-process {
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.result p {
+    margin: 5px 10px 0px 0px;
+}
+
+.latest-process p {
+    margin: 30px 10px 0px 0px;
+} 
+
+p span {
+    color: #DB6D70;
+}
+
+.Label{
+    color: white;
+}
+
+.op1 {
+    color: #46F1D3;
+}
+
+.op2 {
+    color: #DB6D70;
+    font-size: 28px;
+}
+
+
+
